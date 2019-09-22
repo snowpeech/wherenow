@@ -31,13 +31,42 @@
   </head>
   <body>
     <div class="container">
-      <h2>Where now?</h2>
-      <a class="btn btn-primary" href="./volunteer.html" role="button"
-        >Volunteer</a
-      >
-      <a class="btn btn-primary" href="./newOrganizer.html" role="button"
-        >Organizer</a
-      >
+        <div><h2>Volunteer</h2></div>
+        <div class="search-container">
+          <form>
+              <div class='location'>
+                    <input
+                    type="text"
+                    id="locationSearch"
+                    placeholder="Zip code, city..."
+                    name="search"
+                    />
+                    <i class="fas fa-location-arrow accent"></i>
+              </div>
+          </form><form>
+            <input
+              type="text"
+              id="txtSearch"
+              placeholder="Search.."
+              name="search"
+            />
+            <button id="btnSearch" type="button">
+              <i class="fa fa-search"></i>
+            </button>
+          </form>
+          <div class="example-text">
+              <div class="text">
+                  Try typing
+              </div>
+              <div class="text">
+                  I am a designer <br>
+                  I like to cook <br>
+                  tutoring<br>
+                  Anything you're thinking of!<br>
+              </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
